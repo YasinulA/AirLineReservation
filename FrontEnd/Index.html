@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+
+<HTML>
+<HEAD>
+    <TITLE>iFly Bookings Website</TITLE>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <LINK rel="stylesheet" type="text/css" href="Airline.css">
+    <SCRIPT src="Airline.js" type = "text/javascript"></SCRIPT>
+</HEAD>
+
+<BODY>
+
+<FONT size="6%">
+    <TABLE align="center" width="1250">
+        <th><a href="Index.html">
+                <h1>iFly Bookings</h1>
+        </th>
+    </TABLE>
+</FONT>
+
+<center>
+
+<div class="main">
+
+<FORM name="form" method="post" onsubmit="return  validation()">
+
+    <div class="nav">
+        <a href="LogIn.html">Log In</a>
+        <a>||</a>
+        <a href="Registration.html">Register</a>
+    </div>  
+
+<FONT size="6%">
+
+<FIELDSET>
+<LEGEND>Flights</LEGEND>
+
+<FONT size="3%" face="Courier New">
+<TABLE>
+	<tr>
+        <th>Destination:</th>
+        <td><input type="text" placeholder="going to" name="destination" size="25" maxLength="15"></td>
+    </tr>
+    <tr>
+        <th>Source</th>
+        <td><input type="text" placeholder="flying from" name="source" size="25" maxLength="15"></td>
+    </tr>
+    
+    <tr>
+        <th>Departure:</th>
+        <td>
+            <input type="text" placeholder="mm" name="dmonth" size="2" maxLength="2"> /
+            <input type="text" placeholder="dd" name="ddate" size="2" maxLength="2"> /
+            <input type="text" placeholder="yyyy" name="dyear" size="4" maxLength="4">
+        </td>
+    </tr>
+    
+    <tr>
+        <th>Adult:</th>
+        <td><input type="text" placeholder="18+" name="firstName" size="5" maxLength="1"></td>
+    </tr>
+    <tr>
+        <th>Children:</th>
+        <td><input type="text" placeholder="0-17" name="firstName" size="5" maxLength="1"></td>
+    </tr>
+    
+</TABLE>
+</FIELDSET>
+
+<input type="submit" name="sub" value="Submit" onClick="ShowDateTime()">
+<input type="reset" name="reset" value="Clear">
+
+</div><br/><br/><br/><br/>
+
+    <div class="bnav">
+        <a href="Admin.html">Admin Log In
+    </div> 
+
+</center>
+</FORM>    
+</FONT>
+</BODY>
+</HTML>

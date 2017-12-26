@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>Log in to iFly Bookings</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <LINK rel="stylesheet" type="text/css" href="Airline.css">
+    <SCRIPT src="Airline.js" type = "text/javascript"></SCRIPT>
+</head>
+
+<body>
+
+<FONT size="6%">
+    <TABLE align="center" width="1250">
+        <tr>
+            <th><a href="Index.html">
+                <h1>iFly Bookings</h1>
+            </th>
+        </tr>
+    </TABLE>
+</FONT>
+
+
+<center>
+    
+<div class= "main">
+<FORM name="form" method="post" onsubmit="return  validation()">
+
+    <div class="nav">
+        <a href="Index.html">Home</a>
+        <a>||</a>
+        <a href="Registration.html">Register</a>
+    </div>  
+<FONT size="6%">
+
+<FIELDSET>
+<LEGEND>Log In</LEGEND>
+    
+<FONT size="3%" face="Courier New">
+<TABLE>
+    <tr>
+        <th>Email:</th>
+        <td><input type="text" placeholder="emailaddress@mail.com" name="email" size="25" maxLength="25"></td>
+    </tr>
+    <tr>
+        <th>Password:</th>
+        <td><input type="password" placeholder="password" name="pass" size="25" maxLength="5"></td>
+    </tr>
+    <tr>
+        <td></td>
+        <td><a href="Registration.html">
+            Not Registered?<br/>Click here to Register.
+        </td>
+    </tr>
+</TABLE>
+</FIELDSET>
+
+<input type="submit" name="sub" value="Submit" onClick="ShowDateTime()">
+<input type="reset" name="reset" value="Clear">
+
+</div>
+</center>
+</FORM>    
+</FONT>
+</body>
+</html>

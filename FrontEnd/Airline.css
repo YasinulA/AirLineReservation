@@ -1,0 +1,117 @@
+body
+{
+/* Fabled Sunset: background-image: linear-gradient(-300deg, #231557 0%, #44107A 29%, #FF1361 67%, #FFF800 100%); */
+/* Alchemist Lab: background-image: linear-gradient(-20deg, #d558c8 0%, #24d292 100%);*/
+/* Burning Spring:*/ background-image: linear-gradient(to bottom, #4fb576 0%, #44c489 30%, #28a9ae 46%, #28a2b7 59%, #4c7788 71%, #6c4f63 86%, #432c39 100%);
+/* Sunset Gradient: background-image: linear-gradient(to right, #fa709a 0%, #fee140 100%); */
+/*background-image: url("background.jpg");
+	Source: http://eskipaper.com/images/airplane-flight-sunset-1.jpg
+background-repeat: no-repeat;*/
+background-attachment: fixed;
+}
+
+
+img:hover {
+    opacity: 0.5;
+    filter: alpha(opacity=50); /* For IE8 and earlier */
+}
+
+/* Style the top navigation bar */
+.nav {
+    overflow: hidden;
+    background-color: #6c4f63;
+}
+/* Style the navigation links */
+.nav a {
+    float: right;
+    display: block;
+    color: #d558c8;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change color on hover */
+.nav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+/* Style the bottom navigation bar */
+.bnav {
+    overflow: hidden;
+    /*background-color: #6c4f63;*/
+}
+/* Style the navigation links */
+.bnav a {
+    float: center;
+    display: block;
+    color: #d558c8;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change color on hover */
+.bnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+
+/* Main div for the forms */    
+.main 
+{
+position: relative;
+background-color: #6c4f63; 
+width: 800px;
+padding: 25px;
+border: 1px solid black;
+border-radius: 7px;
+margin: auto;
+opacity: 0.85;
+filter: Alpha(opacity=100); /* For IE8 and earlier */
+}
+
+h1
+{
+color: #19334d;
+font-family:'Courier New';
+font-style: italic;
+font-size: 1.75em;
+/* background-color: #6b6161; */
+padding: 10px;
+text-align: center;
+}
+
+h2
+{
+color: #1f4060;
+font-family:'Arial Black';
+}
+
+h3
+{
+color: #d558c8;
+font-family:'Tahoma';
+}
+
+p
+{
+font-family:'Tahoma';
+}
+
+font
+{
+color: white;
+font-family:'Courier New';
+}
+
+a:link{color:#24d292}
+a:visited{color:#24d292}
+a:active{color:red}
+a:hover{color:#24d292}
+a:hover{background:#6b6161}
+
+
+/*Favorite Type of Green: #689364, Smoke: #6b6161*/
